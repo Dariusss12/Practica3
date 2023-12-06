@@ -162,4 +162,6 @@ Del hobby creado en Add Framework debes copiar la id, para cambiar el 5 de la ur
 #### Delete Framework
 Del hobby creado en Add Framework debes copiar la id, para cambiar el 5 de la url por la id copiada. Finalmente debes dar click en el boton "Send". Luego postman te retornará un mensaje indicando que se borró correctamente el framework.
 
+#### Edit Info
+Debes dar click en el boton "Send". Luego postman te retornará la información editada.
 
