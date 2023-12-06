@@ -16,7 +16,7 @@ git clone https://github.com/Dariusss12/Practica3
 ```
 
 ```bash
-cd Taller2_IDWM
+cd Practica3
 ```
 
 ```bash
