@@ -104,6 +104,24 @@
 				"url": "http://127.0.0.1:8000/api/portfolio/frameworks/5"
 			},
 			"response": []
+		},
+		{
+			"name": "Edit info",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\":\"Test6\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:8000/api/profile/"
+			},
+			"response": []
 		}
 	]
 }
