@@ -17,14 +17,14 @@ use App\Http\Controllers\HobbyController;
 |
 */
 
-Route::get('portfolio', [UserController::class,'index']);
+Route::get('profile', [UserController::class,'index']);
 
-Route::post('portfolio/frameworks',[FrameworkController::class,'store']);
-Route::post('portfolio/hobbies',[HobbyController::class,'store']);
+Route::post('profile/frameworks',[FrameworkController::class,'store']);
+Route::post('profile/hobbies',[HobbyController::class,'store']);
 
-Route::put('portfolio',[UserController::class,'update']);
-Route::put('portfolio/frameworks/{framework}',[FrameworkController::class,'update']);
-Route::put('portfolio/hobbies/{hobby}',[HobbyController::class,'update']);
+Route::put('profile',[UserController::class,'update']);
+Route::put('profile/frameworks/{framework}',[FrameworkController::class,'update']);
+Route::put('profile/hobbies/{hobby}',[HobbyController::class,'update']);
 
-Route::delete('portfolio/frameworks/{framework}',[FrameworkController::class,'destroy']);
-Route::delete('portfolio/hobbies/{hobby}',[HobbyController::class,'destroy']);
+Route::delete('profile/frameworks/{framework}',[FrameworkController::class,'destroy']);
+Route::delete('profile/hobbies/{hobby}',[HobbyController::class,'destroy']);
