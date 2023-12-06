@@ -12,7 +12,7 @@ Ir a Terminal -> New Terminal para abrir una nueva terminal.
 Ejecutar los siguientes comandos en orden: 
 
 ```bash
-git clone https://github.com/Dariusss12/Taller2_IDWM
+git clone https://github.com/Dariusss12/Practica3
 ```
 
 ```bash
