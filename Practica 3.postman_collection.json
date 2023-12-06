@@ -1,0 +1,109 @@
+{
+	"info": {
+		"_postman_id": "8f873a67-5492-498d-b2bb-614e2d54e2e4",
+		"name": "Practica 3",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "30895478"
+	},
+	"item": [
+		{
+			"name": "Get info",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://127.0.0.1:8000/api/portfolio/"
+			},
+			"response": []
+		},
+		{
+			"name": "Add Hobby",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\":\"test1\",\r\n    \"description\":\"this is a test\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:8000/api/portfolio/hobbies/"
+			},
+			"response": []
+		},
+		{
+			"name": "Edit Hobby",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\":\"test2\",\r\n    \"description\":\"this is a new test\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:8000/api/portfolio/hobbies/6"
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Hobby",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": "http://127.0.0.1:8000/api/portfolio/hobbies/6"
+			},
+			"response": []
+		},
+		{
+			"name": "Add Framework",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\":\"test3\",\r\n    \"level\":\"principiante\",\r\n    \"year\":\"2023\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:8000/api/portfolio/frameworks"
+			},
+			"response": []
+		},
+		{
+			"name": "Edit Framework",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\":\"test4\",\r\n    \"level\":\"Intermedio\",\r\n    \"year\":\"2022\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:8000/api/portfolio/frameworks/5"
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Framework",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": "http://127.0.0.1:8000/api/portfolio/frameworks/5"
+			},
+			"response": []
+		}
+	]
+}
