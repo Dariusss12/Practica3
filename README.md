@@ -135,8 +135,8 @@ Luego en el navegador debes abrir las herramientas de desarrollador (en el caso 
 ****
 ## Postman
 
-Para probar el la api usando "postman-file", necesitas instalar [Postman](https://www.postman.com/downloads/).
-Al abrir Postman y elegir un espacio de trabajo, debes hacer click en "Import" y seleccionar "postman-file".
+Para probar la api usando "postman-file", necesitas instalar [Postman](https://www.postman.com/downloads/).
+Al abrir Postman y elegir un espacio de trabajo, debes hacer click en "Import" y seleccionar "Practica 3.postman-collection".
 
 ## Ejecución
 
