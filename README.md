@@ -46,10 +46,7 @@ En caso de que no coincidan, debes copiar el puerto de MySQL y colocarlo en "DB_
 
 Ejemplo: "DB_PORT=1234".
 ****
-
-Ir a Terminal -> New Terminal para abrir una nueva terminal.
-
-Ejecutar los siguientes comandos en orden:
+Luego ejecutar los siguientes comandos en orden:
 
 ****
 En caso de que no exista la base de datos:
@@ -93,7 +90,7 @@ npm i
 ```
 
 ****
-## INCIAR SISTEMA:
+## INICIAR SISTEMA:
 En Visual Studio Code, ir a File -> Open Folder, y seleccionar la carpeta API_LARAVEL.
 
 Ir a Terminal -> New Terminal para abrir una nueva terminal.
